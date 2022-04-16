@@ -1,0 +1,2491 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2022-04-16T12:11:43Z",
+    "lastUpdatedDateTime": "2022-04-16T12:11:46Z",
+    "analyzeResult": {
+        "apiVersion": "2022-01-30-preview",
+        "modelId": "prebuilt-invoice",
+        "stringIndexType": "textElements",
+        "content": "Syrine Headquarters\n365 458 St\nTokyo, Japan 20004\nBill To:\nEnirys Corporation\nFinance\nShip To:\nEnirys Corporation\nDelivery\nINVOICE\n# 2\nDate:\nApr 16, 2022\nDue Date:\nApr 18, 2022\nBalance Due:\n$0.00\nItem\nQuantity\nRate\nAmount\nTRIAXIAL ACCELEROMETER MODEL 3023A\n3\n$150.00\n$450.00\nSubtotal:\n$450.00\nTax (0%):\n$0.00\nTotal:\n$450.00\nAmount Paid:\n$450.00\n.",
+        "pages": [
+            {
+                "pageNumber": 1,
+                "angle": 0,
+                "width": 8.5,
+                "height": 11,
+                "unit": "inch",
+                "words": [
+                    {
+                        "content": "Syrine",
+                        "boundingBox": [
+                            0.6811,
+                            2.0231,
+                            1.0958,
+                            2.0231,
+                            1.0958,
+                            2.1577,
+                            0.6811,
+                            2.1577
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 0,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Headquarters",
+                        "boundingBox": [
+                            1.1479,
+                            2.0247,
+                            2.0264,
+                            2.0247,
+                            2.0264,
+                            2.1574,
+                            1.1479,
+                            2.1574
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 7,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "365",
+                        "boundingBox": [
+                            0.6811,
+                            2.1962,
+                            0.9018,
+                            2.1962,
+                            0.9018,
+                            2.3011,
+                            0.6811,
+                            2.3011
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 20,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "458",
+                        "boundingBox": [
+                            0.95,
+                            2.1962,
+                            1.1714,
+                            2.1962,
+                            1.1714,
+                            2.3011,
+                            0.95,
+                            2.3011
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 24,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "St",
+                        "boundingBox": [
+                            1.2223,
+                            2.1937,
+                            1.3432,
+                            2.1937,
+                            1.3432,
+                            2.3011,
+                            1.2223,
+                            2.3011
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 28,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "Tokyo,",
+                        "boundingBox": [
+                            0.6796,
+                            2.3661,
+                            1.0806,
+                            2.3661,
+                            1.0806,
+                            2.4988,
+                            0.6796,
+                            2.4988
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 31,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Japan",
+                        "boundingBox": [
+                            1.1334,
+                            2.3661,
+                            1.4989,
+                            2.3661,
+                            1.4989,
+                            2.4988,
+                            1.1334,
+                            2.4988
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 38,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "20004",
+                        "boundingBox": [
+                            1.5515,
+                            2.3669,
+                            1.9269,
+                            2.3669,
+                            1.9269,
+                            2.4717,
+                            1.5515,
+                            2.4717
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 44,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "Bill",
+                        "boundingBox": [
+                            0.6876,
+                            2.7501,
+                            0.8514,
+                            2.7501,
+                            0.8514,
+                            2.8527,
+                            0.6876,
+                            2.8527
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 50,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "To:",
+                        "boundingBox": [
+                            0.9024,
+                            2.7501,
+                            1.0903,
+                            2.7501,
+                            1.0903,
+                            2.8557,
+                            0.9024,
+                            2.8557
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 55,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Enirys",
+                        "boundingBox": [
+                            0.6876,
+                            2.9741,
+                            1.0951,
+                            2.9741,
+                            1.0951,
+                            3.107,
+                            0.6876,
+                            3.107
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 59,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Corporation",
+                        "boundingBox": [
+                            1.1446,
+                            2.9724,
+                            1.9222,
+                            2.9724,
+                            1.9222,
+                            3.1068,
+                            1.1446,
+                            3.1068
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 66,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "Finance",
+                        "boundingBox": [
+                            0.6869,
+                            3.1447,
+                            1.196,
+                            3.1447,
+                            1.196,
+                            3.2505,
+                            0.6869,
+                            3.2505
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 78,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "Ship",
+                        "boundingBox": [
+                            2.55,
+                            2.7484,
+                            2.8159,
+                            2.7484,
+                            2.8159,
+                            2.8828,
+                            2.55,
+                            2.8828
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 86,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "To:",
+                        "boundingBox": [
+                            2.8617,
+                            2.7501,
+                            3.053,
+                            2.7501,
+                            3.053,
+                            2.8557,
+                            2.8617,
+                            2.8557
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 91,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Enirys",
+                        "boundingBox": [
+                            2.5543,
+                            2.9741,
+                            2.9618,
+                            2.9741,
+                            2.9618,
+                            3.107,
+                            2.5543,
+                            3.107
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 95,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Corporation",
+                        "boundingBox": [
+                            3.0113,
+                            2.9724,
+                            3.7889,
+                            2.9724,
+                            3.7889,
+                            3.1068,
+                            3.0113,
+                            3.1068
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 102,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "Delivery",
+                        "boundingBox": [
+                            2.554,
+                            3.1447,
+                            3.0798,
+                            3.1447,
+                            3.0798,
+                            3.2777,
+                            2.554,
+                            3.2777
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 114,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "INVOICE",
+                        "boundingBox": [
+                            6.4015,
+                            0.3799,
+                            7.9631,
+                            0.3799,
+                            7.9631,
+                            0.6853,
+                            6.4015,
+                            0.6853
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 123,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "#",
+                        "boundingBox": [
+                            7.6977,
+                            0.8333,
+                            7.7878,
+                            0.8333,
+                            7.7878,
+                            0.9572,
+                            7.6977,
+                            0.9572
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 131,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "2",
+                        "boundingBox": [
+                            7.8433,
+                            0.8287,
+                            7.9247,
+                            0.8287,
+                            7.9247,
+                            0.9538,
+                            7.8433,
+                            0.9538
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 133,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Date:",
+                        "boundingBox": [
+                            6.065,
+                            1.5661,
+                            6.3703,
+                            1.5661,
+                            6.3703,
+                            1.6717,
+                            6.065,
+                            1.6717
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 135,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "Apr",
+                        "boundingBox": [
+                            7.079,
+                            1.5661,
+                            7.2905,
+                            1.5661,
+                            7.2905,
+                            1.6988,
+                            7.079,
+                            1.6988
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 141,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "16,",
+                        "boundingBox": [
+                            7.3448,
+                            1.5669,
+                            7.5113,
+                            1.5669,
+                            7.5113,
+                            1.6891,
+                            7.3448,
+                            1.6891
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 145,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "2022",
+                        "boundingBox": [
+                            7.5664,
+                            1.5669,
+                            7.8635,
+                            1.5669,
+                            7.8635,
+                            1.6717,
+                            7.5664,
+                            1.6717
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 149,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Due",
+                        "boundingBox": [
+                            5.7663,
+                            1.8754,
+                            6.0021,
+                            1.8754,
+                            6.0021,
+                            1.9811,
+                            5.7663,
+                            1.9811
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 154,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Date:",
+                        "boundingBox": [
+                            6.0588,
+                            1.8754,
+                            6.3703,
+                            1.8754,
+                            6.3703,
+                            1.9811,
+                            6.0588,
+                            1.9811
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 158,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "Apr",
+                        "boundingBox": [
+                            7.079,
+                            1.8754,
+                            7.2905,
+                            1.8754,
+                            7.2905,
+                            2.0081,
+                            7.079,
+                            2.0081
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 164,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "18,",
+                        "boundingBox": [
+                            7.3448,
+                            1.8762,
+                            7.5113,
+                            1.8762,
+                            7.5113,
+                            1.9984,
+                            7.3448,
+                            1.9984
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 168,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "2022",
+                        "boundingBox": [
+                            7.5664,
+                            1.8762,
+                            7.8635,
+                            1.8762,
+                            7.8635,
+                            1.9811,
+                            7.5664,
+                            1.9811
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 172,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Balance",
+                        "boundingBox": [
+                            5.3938,
+                            2.2009,
+                            5.9887,
+                            2.2009,
+                            5.9887,
+                            2.323,
+                            5.3938,
+                            2.323
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 177,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "Due:",
+                        "boundingBox": [
+                            6.0502,
+                            2.2009,
+                            6.3721,
+                            2.2009,
+                            6.3721,
+                            2.3229,
+                            6.0502,
+                            2.3229
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 185,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "$0.00",
+                        "boundingBox": [
+                            7.4855,
+                            2.1955,
+                            7.8757,
+                            2.1955,
+                            7.8757,
+                            2.3393,
+                            7.4855,
+                            2.3393
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 190,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "Item",
+                        "boundingBox": [
+                            0.6372,
+                            4.0194,
+                            0.883,
+                            4.0194,
+                            0.883,
+                            4.1251,
+                            0.6372,
+                            4.1251
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 196,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Quantity",
+                        "boundingBox": [
+                            5.1086,
+                            4.0177,
+                            5.6161,
+                            4.0177,
+                            5.6161,
+                            4.1521,
+                            5.1086,
+                            4.1521
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 201,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "Rate",
+                        "boundingBox": [
+                            6.5349,
+                            4.0194,
+                            6.8086,
+                            4.0194,
+                            6.8086,
+                            4.1251,
+                            6.5349,
+                            4.1251
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 210,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Amount",
+                        "boundingBox": [
+                            7.399,
+                            4.0194,
+                            7.8707,
+                            4.0194,
+                            7.8707,
+                            4.1251,
+                            7.399,
+                            4.1251
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 215,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "TRIAXIAL",
+                        "boundingBox": [
+                            0.6253,
+                            4.3821,
+                            1.2576,
+                            4.3821,
+                            1.2576,
+                            4.4847,
+                            0.6253,
+                            4.4847
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 222,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "ACCELEROMETER",
+                        "boundingBox": [
+                            1.3041,
+                            4.3804,
+                            2.5564,
+                            4.3804,
+                            2.5564,
+                            4.4879,
+                            1.3041,
+                            4.4879
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 231,
+                            "length": 13
+                        }
+                    },
+                    {
+                        "content": "MODEL",
+                        "boundingBox": [
+                            2.6102,
+                            4.3804,
+                            3.097,
+                            4.3804,
+                            3.097,
+                            4.4879,
+                            2.6102,
+                            4.4879
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 245,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "3023A",
+                        "boundingBox": [
+                            3.1439,
+                            4.3821,
+                            3.5453,
+                            4.3821,
+                            3.5453,
+                            4.4877,
+                            3.1439,
+                            4.4877
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 251,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "3",
+                        "boundingBox": [
+                            5.1078,
+                            4.3829,
+                            5.1735,
+                            4.3829,
+                            5.1735,
+                            4.4877,
+                            5.1078,
+                            4.4877
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 257,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "$150.00",
+                        "boundingBox": [
+                            6.3132,
+                            4.3762,
+                            6.8025,
+                            4.3762,
+                            6.8025,
+                            4.502,
+                            6.3132,
+                            4.502
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 259,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "$450.00",
+                        "boundingBox": [
+                            7.3799,
+                            4.3762,
+                            7.8691,
+                            4.3762,
+                            7.8691,
+                            4.502,
+                            7.3799,
+                            4.502
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 267,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "Subtotal:",
+                        "boundingBox": [
+                            5.8353,
+                            5.2977,
+                            6.3703,
+                            5.2977,
+                            6.3703,
+                            5.4051,
+                            5.8353,
+                            5.4051
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 275,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "$450.00",
+                        "boundingBox": [
+                            7.3799,
+                            5.2936,
+                            7.8691,
+                            5.2936,
+                            7.8691,
+                            5.4193,
+                            7.3799,
+                            5.4193
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 285,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "Tax",
+                        "boundingBox": [
+                            5.7782,
+                            5.6087,
+                            6.0026,
+                            5.6087,
+                            6.0026,
+                            5.7144,
+                            5.7782,
+                            5.7144
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 293,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "(0%):",
+                        "boundingBox": [
+                            6.055,
+                            5.6087,
+                            6.3703,
+                            5.6087,
+                            6.3703,
+                            5.7406,
+                            6.055,
+                            5.7406
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 297,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "$0.00",
+                        "boundingBox": [
+                            7.5399,
+                            5.6029,
+                            7.8751,
+                            5.6029,
+                            7.8751,
+                            5.7287,
+                            7.5399,
+                            5.7287
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 303,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "Total:",
+                        "boundingBox": [
+                            6.0342,
+                            5.9181,
+                            6.3703,
+                            5.9181,
+                            6.3703,
+                            6.0237,
+                            6.0342,
+                            6.0237
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 309,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "$450.00",
+                        "boundingBox": [
+                            7.3799,
+                            5.9122,
+                            7.8691,
+                            5.9122,
+                            7.8691,
+                            6.038,
+                            7.3799,
+                            6.038
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 316,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "Amount",
+                        "boundingBox": [
+                            5.543,
+                            6.2274,
+                            6.0147,
+                            6.2274,
+                            6.0147,
+                            6.3331,
+                            5.543,
+                            6.3331
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 324,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Paid:",
+                        "boundingBox": [
+                            6.0691,
+                            6.2274,
+                            6.3703,
+                            6.2274,
+                            6.3703,
+                            6.3331,
+                            6.0691,
+                            6.3331
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 331,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "$450.00",
+                        "boundingBox": [
+                            7.3799,
+                            6.2216,
+                            7.8691,
+                            6.2216,
+                            7.8691,
+                            6.3473,
+                            7.3799,
+                            6.3473
+                        ],
+                        "confidence": 1,
+                        "span": {
+                            "offset": 337,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": ".",
+                        "boundingBox": [
+                            1.2702,
+                            0.5729,
+                            1.3084,
+                            0.5681,
+                            1.3132,
+                            0.635,
+                            1.275,
+                            0.6398
+                        ],
+                        "confidence": 0.714,
+                        "span": {
+                            "offset": 345,
+                            "length": 1
+                        }
+                    }
+                ],
+                "selectionMarks": [],
+                "lines": [
+                    {
+                        "content": "Syrine Headquarters",
+                        "boundingBox": [
+                            0.6811,
+                            2.0231,
+                            2.0264,
+                            2.0231,
+                            2.0264,
+                            2.1577,
+                            0.6811,
+                            2.1577
+                        ],
+                        "spans": [
+                            {
+                                "offset": 0,
+                                "length": 19
+                            }
+                        ]
+                    },
+                    {
+                        "content": "365 458 St",
+                        "boundingBox": [
+                            0.6811,
+                            2.1937,
+                            1.3432,
+                            2.1937,
+                            1.3432,
+                            2.3011,
+                            0.6811,
+                            2.3011
+                        ],
+                        "spans": [
+                            {
+                                "offset": 20,
+                                "length": 10
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Tokyo, Japan 20004",
+                        "boundingBox": [
+                            0.6796,
+                            2.3661,
+                            1.9269,
+                            2.3661,
+                            1.9269,
+                            2.4988,
+                            0.6796,
+                            2.4988
+                        ],
+                        "spans": [
+                            {
+                                "offset": 31,
+                                "length": 18
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Bill To:",
+                        "boundingBox": [
+                            0.6876,
+                            2.7501,
+                            1.0903,
+                            2.7501,
+                            1.0903,
+                            2.8557,
+                            0.6876,
+                            2.8557
+                        ],
+                        "spans": [
+                            {
+                                "offset": 50,
+                                "length": 8
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Enirys Corporation",
+                        "boundingBox": [
+                            0.6876,
+                            2.9724,
+                            1.9222,
+                            2.9724,
+                            1.9222,
+                            3.107,
+                            0.6876,
+                            3.107
+                        ],
+                        "spans": [
+                            {
+                                "offset": 59,
+                                "length": 18
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Finance",
+                        "boundingBox": [
+                            0.6869,
+                            3.1447,
+                            1.196,
+                            3.1447,
+                            1.196,
+                            3.2505,
+                            0.6869,
+                            3.2505
+                        ],
+                        "spans": [
+                            {
+                                "offset": 78,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Ship To:",
+                        "boundingBox": [
+                            2.55,
+                            2.7484,
+                            3.053,
+                            2.7484,
+                            3.053,
+                            2.8828,
+                            2.55,
+                            2.8828
+                        ],
+                        "spans": [
+                            {
+                                "offset": 86,
+                                "length": 8
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Enirys Corporation",
+                        "boundingBox": [
+                            2.5543,
+                            2.9724,
+                            3.7889,
+                            2.9724,
+                            3.7889,
+                            3.107,
+                            2.5543,
+                            3.107
+                        ],
+                        "spans": [
+                            {
+                                "offset": 95,
+                                "length": 18
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Delivery",
+                        "boundingBox": [
+                            2.554,
+                            3.1447,
+                            3.0798,
+                            3.1447,
+                            3.0798,
+                            3.2777,
+                            2.554,
+                            3.2777
+                        ],
+                        "spans": [
+                            {
+                                "offset": 114,
+                                "length": 8
+                            }
+                        ]
+                    },
+                    {
+                        "content": "INVOICE",
+                        "boundingBox": [
+                            6.4015,
+                            0.3799,
+                            7.9631,
+                            0.3799,
+                            7.9631,
+                            0.6853,
+                            6.4015,
+                            0.6853
+                        ],
+                        "spans": [
+                            {
+                                "offset": 123,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    {
+                        "content": "# 2",
+                        "boundingBox": [
+                            7.6977,
+                            0.8287,
+                            7.9247,
+                            0.8287,
+                            7.9247,
+                            0.9572,
+                            7.6977,
+                            0.9572
+                        ],
+                        "spans": [
+                            {
+                                "offset": 131,
+                                "length": 3
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Date:",
+                        "boundingBox": [
+                            6.065,
+                            1.5661,
+                            6.3703,
+                            1.5661,
+                            6.3703,
+                            1.6717,
+                            6.065,
+                            1.6717
+                        ],
+                        "spans": [
+                            {
+                                "offset": 135,
+                                "length": 5
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Apr 16, 2022",
+                        "boundingBox": [
+                            7.079,
+                            1.5661,
+                            7.8635,
+                            1.5661,
+                            7.8635,
+                            1.6988,
+                            7.079,
+                            1.6988
+                        ],
+                        "spans": [
+                            {
+                                "offset": 141,
+                                "length": 12
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Due Date:",
+                        "boundingBox": [
+                            5.7663,
+                            1.8754,
+                            6.3703,
+                            1.8754,
+                            6.3703,
+                            1.9811,
+                            5.7663,
+                            1.9811
+                        ],
+                        "spans": [
+                            {
+                                "offset": 154,
+                                "length": 9
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Apr 18, 2022",
+                        "boundingBox": [
+                            7.079,
+                            1.8754,
+                            7.8635,
+                            1.8754,
+                            7.8635,
+                            2.0081,
+                            7.079,
+                            2.0081
+                        ],
+                        "spans": [
+                            {
+                                "offset": 164,
+                                "length": 12
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Balance Due:",
+                        "boundingBox": [
+                            5.3938,
+                            2.2009,
+                            6.3721,
+                            2.2009,
+                            6.3721,
+                            2.323,
+                            5.3938,
+                            2.323
+                        ],
+                        "spans": [
+                            {
+                                "offset": 177,
+                                "length": 12
+                            }
+                        ]
+                    },
+                    {
+                        "content": "$0.00",
+                        "boundingBox": [
+                            7.4855,
+                            2.1955,
+                            7.8757,
+                            2.1955,
+                            7.8757,
+                            2.3393,
+                            7.4855,
+                            2.3393
+                        ],
+                        "spans": [
+                            {
+                                "offset": 190,
+                                "length": 5
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Item",
+                        "boundingBox": [
+                            0.6372,
+                            4.0194,
+                            0.883,
+                            4.0194,
+                            0.883,
+                            4.1251,
+                            0.6372,
+                            4.1251
+                        ],
+                        "spans": [
+                            {
+                                "offset": 196,
+                                "length": 4
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Quantity",
+                        "boundingBox": [
+                            5.1086,
+                            4.0177,
+                            5.6161,
+                            4.0177,
+                            5.6161,
+                            4.1521,
+                            5.1086,
+                            4.1521
+                        ],
+                        "spans": [
+                            {
+                                "offset": 201,
+                                "length": 8
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Rate",
+                        "boundingBox": [
+                            6.5349,
+                            4.0194,
+                            6.8086,
+                            4.0194,
+                            6.8086,
+                            4.1251,
+                            6.5349,
+                            4.1251
+                        ],
+                        "spans": [
+                            {
+                                "offset": 210,
+                                "length": 4
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Amount",
+                        "boundingBox": [
+                            7.399,
+                            4.0194,
+                            7.8707,
+                            4.0194,
+                            7.8707,
+                            4.1251,
+                            7.399,
+                            4.1251
+                        ],
+                        "spans": [
+                            {
+                                "offset": 215,
+                                "length": 6
+                            }
+                        ]
+                    },
+                    {
+                        "content": "TRIAXIAL ACCELEROMETER MODEL 3023A",
+                        "boundingBox": [
+                            0.6253,
+                            4.3804,
+                            3.5453,
+                            4.3804,
+                            3.5453,
+                            4.4879,
+                            0.6253,
+                            4.4879
+                        ],
+                        "spans": [
+                            {
+                                "offset": 222,
+                                "length": 34
+                            }
+                        ]
+                    },
+                    {
+                        "content": "3",
+                        "boundingBox": [
+                            5.1078,
+                            4.3829,
+                            5.1735,
+                            4.3829,
+                            5.1735,
+                            4.4877,
+                            5.1078,
+                            4.4877
+                        ],
+                        "spans": [
+                            {
+                                "offset": 257,
+                                "length": 1
+                            }
+                        ]
+                    },
+                    {
+                        "content": "$150.00",
+                        "boundingBox": [
+                            6.3132,
+                            4.3762,
+                            6.8025,
+                            4.3762,
+                            6.8025,
+                            4.502,
+                            6.3132,
+                            4.502
+                        ],
+                        "spans": [
+                            {
+                                "offset": 259,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    {
+                        "content": "$450.00",
+                        "boundingBox": [
+                            7.3799,
+                            4.3762,
+                            7.8691,
+                            4.3762,
+                            7.8691,
+                            4.502,
+                            7.3799,
+                            4.502
+                        ],
+                        "spans": [
+                            {
+                                "offset": 267,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Subtotal:",
+                        "boundingBox": [
+                            5.8353,
+                            5.2977,
+                            6.3703,
+                            5.2977,
+                            6.3703,
+                            5.4051,
+                            5.8353,
+                            5.4051
+                        ],
+                        "spans": [
+                            {
+                                "offset": 275,
+                                "length": 9
+                            }
+                        ]
+                    },
+                    {
+                        "content": "$450.00",
+                        "boundingBox": [
+                            7.3799,
+                            5.2936,
+                            7.8691,
+                            5.2936,
+                            7.8691,
+                            5.4193,
+                            7.3799,
+                            5.4193
+                        ],
+                        "spans": [
+                            {
+                                "offset": 285,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Tax (0%):",
+                        "boundingBox": [
+                            5.7782,
+                            5.6087,
+                            6.3703,
+                            5.6087,
+                            6.3703,
+                            5.7406,
+                            5.7782,
+                            5.7406
+                        ],
+                        "spans": [
+                            {
+                                "offset": 293,
+                                "length": 9
+                            }
+                        ]
+                    },
+                    {
+                        "content": "$0.00",
+                        "boundingBox": [
+                            7.5399,
+                            5.6029,
+                            7.8751,
+                            5.6029,
+                            7.8751,
+                            5.7287,
+                            7.5399,
+                            5.7287
+                        ],
+                        "spans": [
+                            {
+                                "offset": 303,
+                                "length": 5
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Total:",
+                        "boundingBox": [
+                            6.0342,
+                            5.9181,
+                            6.3703,
+                            5.9181,
+                            6.3703,
+                            6.0237,
+                            6.0342,
+                            6.0237
+                        ],
+                        "spans": [
+                            {
+                                "offset": 309,
+                                "length": 6
+                            }
+                        ]
+                    },
+                    {
+                        "content": "$450.00",
+                        "boundingBox": [
+                            7.3799,
+                            5.9122,
+                            7.8691,
+                            5.9122,
+                            7.8691,
+                            6.038,
+                            7.3799,
+                            6.038
+                        ],
+                        "spans": [
+                            {
+                                "offset": 316,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Amount Paid:",
+                        "boundingBox": [
+                            5.543,
+                            6.2274,
+                            6.3703,
+                            6.2274,
+                            6.3703,
+                            6.3331,
+                            5.543,
+                            6.3331
+                        ],
+                        "spans": [
+                            {
+                                "offset": 324,
+                                "length": 12
+                            }
+                        ]
+                    },
+                    {
+                        "content": "$450.00",
+                        "boundingBox": [
+                            7.3799,
+                            6.2216,
+                            7.8691,
+                            6.2216,
+                            7.8691,
+                            6.3473,
+                            7.3799,
+                            6.3473
+                        ],
+                        "spans": [
+                            {
+                                "offset": 337,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    {
+                        "content": ".",
+                        "boundingBox": [
+                            1.2511,
+                            0.5729,
+                            1.3228,
+                            0.5681,
+                            1.3228,
+                            0.635,
+                            1.2559,
+                            0.6398
+                        ],
+                        "spans": [
+                            {
+                                "offset": 345,
+                                "length": 1
+                            }
+                        ]
+                    }
+                ],
+                "spans": [
+                    {
+                        "offset": 0,
+                        "length": 346
+                    }
+                ]
+            }
+        ],
+        "tables": [
+            {
+                "rowCount": 2,
+                "columnCount": 4,
+                "cells": [
+                    {
+                        "kind": "columnHeader",
+                        "rowIndex": 0,
+                        "columnIndex": 0,
+                        "rowSpan": 1,
+                        "columnSpan": 1,
+                        "content": "Item",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    0.4216,
+                                    3.9439,
+                                    4.3139,
+                                    3.9363,
+                                    4.306,
+                                    4.2316,
+                                    0.4137,
+                                    4.2316
+                                ]
+                            }
+                        ],
+                        "spans": [
+                            {
+                                "offset": 196,
+                                "length": 4
+                            }
+                        ]
+                    },
+                    {
+                        "kind": "columnHeader",
+                        "rowIndex": 0,
+                        "columnIndex": 1,
+                        "rowSpan": 1,
+                        "columnSpan": 1,
+                        "content": "Quantity",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    4.3139,
+                                    3.9363,
+                                    5.964,
+                                    3.9363,
+                                    5.9561,
+                                    4.2316,
+                                    4.306,
+                                    4.2316
+                                ]
+                            }
+                        ],
+                        "spans": [
+                            {
+                                "offset": 201,
+                                "length": 8
+                            }
+                        ]
+                    },
+                    {
+                        "kind": "columnHeader",
+                        "rowIndex": 0,
+                        "columnIndex": 2,
+                        "rowSpan": 1,
+                        "columnSpan": 1,
+                        "content": "Rate",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    5.964,
+                                    3.9363,
+                                    7.093,
+                                    3.9363,
+                                    7.093,
+                                    4.2316,
+                                    5.9561,
+                                    4.2316
+                                ]
+                            }
+                        ],
+                        "spans": [
+                            {
+                                "offset": 210,
+                                "length": 4
+                            }
+                        ]
+                    },
+                    {
+                        "kind": "columnHeader",
+                        "rowIndex": 0,
+                        "columnIndex": 3,
+                        "rowSpan": 1,
+                        "columnSpan": 1,
+                        "content": "Amount",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    7.093,
+                                    3.9363,
+                                    8.0719,
+                                    3.9363,
+                                    8.0798,
+                                    4.2316,
+                                    7.093,
+                                    4.2316
+                                ]
+                            }
+                        ],
+                        "spans": [
+                            {
+                                "offset": 215,
+                                "length": 6
+                            }
+                        ]
+                    },
+                    {
+                        "rowIndex": 1,
+                        "columnIndex": 0,
+                        "rowSpan": 1,
+                        "columnSpan": 1,
+                        "content": "TRIAXIAL ACCELEROMETER MODEL 3023A",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    0.4137,
+                                    4.2316,
+                                    4.306,
+                                    4.2316,
+                                    4.306,
+                                    4.5572,
+                                    0.4058,
+                                    4.5572
+                                ]
+                            }
+                        ],
+                        "spans": [
+                            {
+                                "offset": 222,
+                                "length": 34
+                            }
+                        ]
+                    },
+                    {
+                        "rowIndex": 1,
+                        "columnIndex": 1,
+                        "rowSpan": 1,
+                        "columnSpan": 1,
+                        "content": "3",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    4.306,
+                                    4.2316,
+                                    5.9561,
+                                    4.2316,
+                                    5.9482,
+                                    4.5572,
+                                    4.306,
+                                    4.5572
+                                ]
+                            }
+                        ],
+                        "spans": [
+                            {
+                                "offset": 257,
+                                "length": 1
+                            }
+                        ]
+                    },
+                    {
+                        "rowIndex": 1,
+                        "columnIndex": 2,
+                        "rowSpan": 1,
+                        "columnSpan": 1,
+                        "content": "$150.00",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    5.9561,
+                                    4.2316,
+                                    7.093,
+                                    4.2316,
+                                    7.093,
+                                    4.5572,
+                                    5.9482,
+                                    4.5572
+                                ]
+                            }
+                        ],
+                        "spans": [
+                            {
+                                "offset": 259,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    {
+                        "rowIndex": 1,
+                        "columnIndex": 3,
+                        "rowSpan": 1,
+                        "columnSpan": 1,
+                        "content": "$450.00",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    7.093,
+                                    4.2316,
+                                    8.0798,
+                                    4.2316,
+                                    8.0877,
+                                    4.5648,
+                                    7.093,
+                                    4.5572
+                                ]
+                            }
+                        ],
+                        "spans": [
+                            {
+                                "offset": 267,
+                                "length": 7
+                            }
+                        ]
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "boundingBox": [
+                            0.3947,
+                            3.919,
+                            8.0929,
+                            3.9185,
+                            8.0934,
+                            4.5813,
+                            0.3949,
+                            4.5811
+                        ]
+                    }
+                ],
+                "spans": [
+                    {
+                        "offset": 196,
+                        "length": 78
+                    }
+                ]
+            }
+        ],
+        "styles": [],
+        "documents": [
+            {
+                "docType": "invoice",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "boundingBox": [
+                            0,
+                            0,
+                            8.5,
+                            0,
+                            8.5,
+                            11,
+                            0,
+                            11
+                        ]
+                    }
+                ],
+                "fields": {
+                    "AmountDue": {
+                        "type": "currency",
+                        "valueCurrency": {
+                            "currencySymbol": "$",
+                            "amount": 0.0
+                        },
+                        "content": "$0.00",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    7.4855,
+                                    2.1955,
+                                    7.8757,
+                                    2.1955,
+                                    7.8757,
+                                    2.3393,
+                                    7.4855,
+                                    2.3393
+                                ]
+                            }
+                        ],
+                        "confidence": 0.976,
+                        "spans": [
+                            {
+                                "offset": 190,
+                                "length": 5
+                            }
+                        ]
+                    },
+                    "BillingAddressRecipient": {
+                        "type": "string",
+                        "valueString": "Enirys Corporation Finance",
+                        "content": "Enirys Corporation Finance",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    0.6869,
+                                    2.9724,
+                                    1.9222,
+                                    2.9724,
+                                    1.9222,
+                                    3.2505,
+                                    0.6869,
+                                    3.2505
+                                ]
+                            }
+                        ],
+                        "confidence": 0.888,
+                        "spans": [
+                            {
+                                "offset": 59,
+                                "length": 26
+                            }
+                        ]
+                    },
+                    "CustomerName": {
+                        "type": "string",
+                        "valueString": "Enirys Corporation Finance",
+                        "content": "Enirys Corporation Finance",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    0.6869,
+                                    2.9724,
+                                    1.9222,
+                                    2.9724,
+                                    1.9222,
+                                    3.2505,
+                                    0.6869,
+                                    3.2505
+                                ]
+                            }
+                        ],
+                        "confidence": 0.888,
+                        "spans": [
+                            {
+                                "offset": 59,
+                                "length": 26
+                            }
+                        ]
+                    },
+                    "DueDate": {
+                        "type": "date",
+                        "valueDate": "2022-04-18",
+                        "content": "Apr 18, 2022",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    7.079,
+                                    1.8754,
+                                    7.8635,
+                                    1.8754,
+                                    7.8635,
+                                    2.0081,
+                                    7.079,
+                                    2.0081
+                                ]
+                            }
+                        ],
+                        "confidence": 0.923,
+                        "spans": [
+                            {
+                                "offset": 164,
+                                "length": 12
+                            }
+                        ]
+                    },
+                    "InvoiceDate": {
+                        "type": "date",
+                        "valueDate": "2022-04-16",
+                        "content": "Apr 16, 2022",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    7.079,
+                                    1.5661,
+                                    7.8635,
+                                    1.5661,
+                                    7.8635,
+                                    1.6988,
+                                    7.079,
+                                    1.6988
+                                ]
+                            }
+                        ],
+                        "confidence": 0.922,
+                        "spans": [
+                            {
+                                "offset": 141,
+                                "length": 12
+                            }
+                        ]
+                    },
+                    "InvoiceId": {
+                        "type": "string",
+                        "valueString": "2",
+                        "content": "2",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    7.8433,
+                                    0.8287,
+                                    7.9247,
+                                    0.8287,
+                                    7.9247,
+                                    0.9538,
+                                    7.8433,
+                                    0.9538
+                                ]
+                            }
+                        ],
+                        "confidence": 0.512,
+                        "spans": [
+                            {
+                                "offset": 133,
+                                "length": 1
+                            }
+                        ]
+                    },
+                    "InvoiceTotal": {
+                        "type": "currency",
+                        "valueCurrency": {
+                            "currencySymbol": "$",
+                            "amount": 450.0
+                        },
+                        "content": "$450.00",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    7.3799,
+                                    5.9122,
+                                    7.8691,
+                                    5.9122,
+                                    7.8691,
+                                    6.038,
+                                    7.3799,
+                                    6.038
+                                ]
+                            }
+                        ],
+                        "confidence": 0.983,
+                        "spans": [
+                            {
+                                "offset": 316,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    "Items": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "object",
+                                "valueObject": {
+                                    "Amount": {
+                                        "type": "currency",
+                                        "valueCurrency": {
+                                            "currencySymbol": "$",
+                                            "amount": 450.0
+                                        },
+                                        "content": "$450.00",
+                                        "boundingRegions": [
+                                            {
+                                                "pageNumber": 1,
+                                                "boundingBox": [
+                                                    7.3799,
+                                                    4.3762,
+                                                    7.8691,
+                                                    4.3762,
+                                                    7.8691,
+                                                    4.502,
+                                                    7.3799,
+                                                    4.502
+                                                ]
+                                            }
+                                        ],
+                                        "confidence": 0.983,
+                                        "spans": [
+                                            {
+                                                "offset": 267,
+                                                "length": 7
+                                            }
+                                        ]
+                                    },
+                                    "Description": {
+                                        "type": "string",
+                                        "valueString": "ACCELEROMETER MODEL 3023A",
+                                        "content": "ACCELEROMETER MODEL 3023A",
+                                        "boundingRegions": [
+                                            {
+                                                "pageNumber": 1,
+                                                "boundingBox": [
+                                                    1.3041,
+                                                    4.3804,
+                                                    3.5453,
+                                                    4.3804,
+                                                    3.5453,
+                                                    4.4879,
+                                                    1.3041,
+                                                    4.4879
+                                                ]
+                                            }
+                                        ],
+                                        "confidence": 0.439,
+                                        "spans": [
+                                            {
+                                                "offset": 231,
+                                                "length": 25
+                                            }
+                                        ]
+                                    },
+                                    "ProductCode": {
+                                        "type": "string",
+                                        "valueString": "TRIAXIAL",
+                                        "content": "TRIAXIAL",
+                                        "boundingRegions": [
+                                            {
+                                                "pageNumber": 1,
+                                                "boundingBox": [
+                                                    0.6253,
+                                                    4.3821,
+                                                    1.2576,
+                                                    4.3821,
+                                                    1.2576,
+                                                    4.4847,
+                                                    0.6253,
+                                                    4.4847
+                                                ]
+                                            }
+                                        ],
+                                        "confidence": 0.353,
+                                        "spans": [
+                                            {
+                                                "offset": 222,
+                                                "length": 8
+                                            }
+                                        ]
+                                    },
+                                    "Quantity": {
+                                        "type": "number",
+                                        "valueNumber": 3,
+                                        "content": "3",
+                                        "boundingRegions": [
+                                            {
+                                                "pageNumber": 1,
+                                                "boundingBox": [
+                                                    5.1078,
+                                                    4.3829,
+                                                    5.1735,
+                                                    4.3829,
+                                                    5.1735,
+                                                    4.4877,
+                                                    5.1078,
+                                                    4.4877
+                                                ]
+                                            }
+                                        ],
+                                        "confidence": 0.911,
+                                        "spans": [
+                                            {
+                                                "offset": 257,
+                                                "length": 1
+                                            }
+                                        ]
+                                    },
+                                    "UnitPrice": {
+                                        "type": "currency",
+                                        "valueCurrency": {
+                                            "currencySymbol": "$",
+                                            "amount": 150.0
+                                        },
+                                        "content": "$150.00",
+                                        "boundingRegions": [
+                                            {
+                                                "pageNumber": 1,
+                                                "boundingBox": [
+                                                    6.3132,
+                                                    4.3762,
+                                                    6.8025,
+                                                    4.3762,
+                                                    6.8025,
+                                                    4.502,
+                                                    6.3132,
+                                                    4.502
+                                                ]
+                                            }
+                                        ],
+                                        "confidence": 0.982,
+                                        "spans": [
+                                            {
+                                                "offset": 259,
+                                                "length": 7
+                                            }
+                                        ]
+                                    }
+                                },
+                                "content": "TRIAXIAL ACCELEROMETER MODEL 3023A 3 $150.00 $450.00",
+                                "boundingRegions": [
+                                    {
+                                        "pageNumber": 1,
+                                        "boundingBox": [
+                                            0.6253,
+                                            4.3762,
+                                            7.8691,
+                                            4.3762,
+                                            7.8691,
+                                            4.502,
+                                            0.6253,
+                                            4.502
+                                        ]
+                                    }
+                                ],
+                                "confidence": 0.959,
+                                "spans": [
+                                    {
+                                        "offset": 222,
+                                        "length": 52
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "ShippingAddressRecipient": {
+                        "type": "string",
+                        "valueString": "Enirys Corporation Delivery",
+                        "content": "Enirys Corporation Delivery",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    2.554,
+                                    2.9724,
+                                    3.7889,
+                                    2.9724,
+                                    3.7889,
+                                    3.2777,
+                                    2.554,
+                                    3.2777
+                                ]
+                            }
+                        ],
+                        "confidence": 0.529,
+                        "spans": [
+                            {
+                                "offset": 95,
+                                "length": 27
+                            }
+                        ]
+                    },
+                    "SubTotal": {
+                        "type": "currency",
+                        "valueCurrency": {
+                            "currencySymbol": "$",
+                            "amount": 450.0
+                        },
+                        "content": "$450.00",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    7.3799,
+                                    5.2936,
+                                    7.8691,
+                                    5.2936,
+                                    7.8691,
+                                    5.4193,
+                                    7.3799,
+                                    5.4193
+                                ]
+                            }
+                        ],
+                        "confidence": 0.984,
+                        "spans": [
+                            {
+                                "offset": 285,
+                                "length": 7
+                            }
+                        ]
+                    },
+                    "TotalTax": {
+                        "type": "currency",
+                        "valueCurrency": {
+                            "currencySymbol": "$",
+                            "amount": 0.0
+                        },
+                        "content": "$0.00",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    7.5399,
+                                    5.6029,
+                                    7.8751,
+                                    5.6029,
+                                    7.8751,
+                                    5.7287,
+                                    7.5399,
+                                    5.7287
+                                ]
+                            }
+                        ],
+                        "confidence": 0.984,
+                        "spans": [
+                            {
+                                "offset": 303,
+                                "length": 5
+                            }
+                        ]
+                    },
+                    "VendorAddress": {
+                        "type": "string",
+                        "valueString": "365 458 St Tokyo, Japan 20004",
+                        "content": "365 458 St Tokyo, Japan 20004",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    0.6796,
+                                    2.1937,
+                                    1.9269,
+                                    2.1937,
+                                    1.9269,
+                                    2.4988,
+                                    0.6796,
+                                    2.4988
+                                ]
+                            }
+                        ],
+                        "confidence": 0.723,
+                        "spans": [
+                            {
+                                "offset": 20,
+                                "length": 29
+                            }
+                        ]
+                    },
+                    "VendorAddressRecipient": {
+                        "type": "string",
+                        "valueString": "Syrine Headquarters",
+                        "content": "Syrine Headquarters",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    0.6811,
+                                    2.0231,
+                                    2.0264,
+                                    2.0231,
+                                    2.0264,
+                                    2.1577,
+                                    0.6811,
+                                    2.1577
+                                ]
+                            }
+                        ],
+                        "confidence": 0.92,
+                        "spans": [
+                            {
+                                "offset": 0,
+                                "length": 19
+                            }
+                        ]
+                    },
+                    "VendorName": {
+                        "type": "string",
+                        "valueString": "Syrine Headquarters",
+                        "content": "Syrine Headquarters",
+                        "boundingRegions": [
+                            {
+                                "pageNumber": 1,
+                                "boundingBox": [
+                                    0.6811,
+                                    2.0231,
+                                    2.0264,
+                                    2.0231,
+                                    2.0264,
+                                    2.1577,
+                                    0.6811,
+                                    2.1577
+                                ]
+                            }
+                        ],
+                        "confidence": 0.92,
+                        "spans": [
+                            {
+                                "offset": 0,
+                                "length": 19
+                            }
+                        ]
+                    }
+                },
+                "confidence": 1,
+                "spans": [
+                    {
+                        "offset": 0,
+                        "length": 346
+                    }
+                ]
+            }
+        ]
+    }
+}
